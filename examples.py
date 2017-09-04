@@ -1,7 +1,3 @@
-import sys
-
-import loggingconfigurer
-import logging
 from dataservice import *
 from querysupplier import *
 from persistenceservice import *
