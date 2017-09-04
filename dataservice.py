@@ -367,7 +367,7 @@ class SouthEnrollmentDataService(AbstractDataService):
                     #     code = ex.correct_code
                     #     captcha_extracted = True
                     # else:
-                    #     self._logger.warning('S`till invalid captcha from response! Code & cookies: %s, %s; re-getting from pool', code, cookies)
+                    #     self._logger.warning('Still invalid captcha from response! Code & cookies: %s, %s; re-getting from pool', code, cookies)
                     #     code, cookies = self._captcha_service.get_captcha_result()
                     #     captcha_extracted = False
                 except SouthEnrollmentDataService.InvalidCaptchaException:
